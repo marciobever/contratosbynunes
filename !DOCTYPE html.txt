@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Mediação Imobiliária</title>
+    <style>
+        /* Reset CSS para garantir consistência */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+        
+        html, body {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+            color: #000 !important;
+            background-color: #fff !important;
+        }
+        
+        body {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto !important;
+            padding: 20px !important;
+        }
+        
+        p, div, span, label {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 24px !important;
+            font-weight: bold;
+            color: #666;
+        }
+        
+        .sublogo {
+            font-size: 14px !important;
+            color: #666;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 16px !important;
+            font-weight: bold;
+            margin: 20px 0 30px 0 !important;
+        }
+        
+        .form-row {
+            margin-bottom: 10px !important;
+            width: 100%;
+        }
+        
+        input[type="text"], 
+        input[type="email"], 
+        input[type="tel"], 
+        input[type="number"] {
+            padding: 6px !important;
+            border: 1px solid #ccc !important;
+            border-radius: 3px !important;
+            font-size: 14px !important;
+            width: 100%;
+        }
+        
+        .checkbox-group {
+            margin: 10px 0 !important;
+        }
+        
+        .checkbox-item {
+            margin-bottom: 5px !important;
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            margin-right: 5px !important;
+        }
+        
+        .clause {
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+        }
+        
+        .clause-title {
+            font-weight: bold;
+            margin-bottom: 5px !important;
+            font-size: 14px !important;
+        }
+        
+        .signatures {
+            margin-top: 40px !important;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .signature-line {
+            border-top: 1px solid #000 !important;
+            width: 45% !important;
+            padding-top: 5px !important;
+            text-align: center;
+        }
+        
+        .page-number {
+            text-align: center;
+            margin-top: 30px !important;
+            font-size: 12px !important;
+        }
+        
+        .w-50 {
+            width: 48% !important;
+            display: inline-block;
+        }
+        
+        .w-33 {
+            width: 32% !important;
+            display: inline-block;
+        }
+        
+        .mt-10 {
+            margin-top: 10px !important;
+        }
+        
+        strong {
+            font-weight: bold !important;
+            font-size: 14px !important;
+        }
+        
+        label {
+            font-size: 14px !important;
+        }
+        
+        /* Estilos adicionais para garantir compatibilidade */
+        input[type="text"].small {
+            width: 80px !important;
+            display: inline-block !important;
+        }
+        
+        input[type="text"].medium {
+            width: 150px !important;
+            display: inline-block !important;
+        }
+        
+        input[type="text"].large {
+            width: 300px !important;
+            display: inline-block !important;
+        }
+        
+        input[type="text"].inline {
+            width: auto !important;
+            display: inline-block !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            CENTURY 21
+            <div class="sublogo">ByNunes</div>
+        </div>
+    </div>
+
+    <h1>CONTRATO DE MEDIAÇÃO IMOBILIÁRIA N.º <input type="text" class="small"> / <input type="text" class="small">    ID: <input type="text" class="medium"></h1>
+
+    <div>
+        <p><strong>Entre:</strong> Golden Ágata – Mediação Imobiliária, Lda., com estabelecimento comercial na Rua Pulido Valente, nº 37, loja 1, 2675-671 em Odivelas, com o capital social de 15 000€ Euros, e com o NIPC n.º 515574139, matriculada na Conservatória do Registo Comercial de Lisboa, sob o nº 515 574 139, detentora da licença AMI nº 17033, emitida pelo Instituto dos Mercados Públicos, do Imobiliário e da Construção I.P. (IMPIC, I.P.), adiante designada como Mediadora,</p>
+        
+        <p><strong>E;</strong></p>
+        
+        <div class="form-row">
+            <strong>Nome do Proprietário:</strong> <input type="text">
+        </div>
+        <div class="form-row">
+            <strong>Morada/Sede:</strong> <input type="text" style="width: 75% !important;"> <strong>Código Postal:</strong> <input type="text" style="width: 15% !important;">
+        </div>
+        <div class="form-row">
+            <div class="w-50"><strong>Cartão de cidadão:</strong> <input type="text"></div>
+            <div class="w-50"><strong>NIF/NIPC:</strong> <input type="text"></div>
+        </div>
+        <div class="form-row">
+            <div class="w-50"><strong>Contato telefónico:</strong> <input type="tel"></div>
+            <div class="w-50"><strong>email:</strong> <input type="email"></div>
+        </div>
+        <div class="form-row">
+            <div class="w-50"><strong>Estado civil:</strong> <input type="text"></div>
+            <div class="w-50"><strong>sob o regime de bens:</strong> <input type="text"></div>
+        </div>
+        <div class="form-row">
+            <strong>Nome do cônjuge:</strong> <input type="text">
+        </div>
+        <div class="form-row">
+            <div class="w-50"><strong>Cartão de cidadão:</strong> <input type="text"></div>
+            <div class="w-50"><strong>NIF:</strong> <input type="text"></div>
+        </div>
+        
+        <div class="form-row mt-10">
+            <strong>Se Empresa:</strong>
+        </div>
+        <div class="form-row">
+            <div class="w-33"><strong>Cod. Cert. Permanente:</strong> <input type="text"></div>
+            <div class="w-33"><input type="text"></div>
+            <div class="w-33"><strong>RCBE:</strong> <input type="text"></div>
+        </div>
+        <div class="form-row">
+            <strong>Aqui representada por:</strong> <input type="text" style="width: 65% !important;"> <strong>Cartão de Cidadão:</strong> <input type="text" style="width: 25% !important;">
+        </div>
+        <div class="form-row">
+            <div class="w-50"><strong>NIF:</strong> <input type="text"></div>
+            <div class="w-50"><strong>Telefone:</strong> <input type="tel" style="width: 40% !important;"> <strong>email</strong> <input type="email" style="width: 50% !important;"></div>
+        </div>
+        
+        <div class="form-row mt-10">
+            <strong>Na qualidade de:</strong>
+        </div>
+        <div class="checkbox-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="gerente"> <label for="gerente">Gerente</label>
+                <input type="checkbox" id="socio-gerente"> <label for="socio-gerente">Sócio gerente</label>
+                <input type="checkbox" id="administrador"> <label for="administrador">Administrador</label>
+                <input type="checkbox" id="procurador"> <label for="procurador">procurador</label>
+                <input type="checkbox" id="gestor"> <label for="gestor">gestor de negócios</label>
+            </div>
+        </div>
+        <p>com poderes para o ato, com domicílio profissional na sede da sua representada, adiante designado(s) como Segundo(s) Contratante(s) na qualidade de:</p>
+        
+        <div class="checkbox-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="proprietario"> <label for="proprietario">Proprietário</label>
+                <input type="checkbox" id="senhorio"> <label for="senhorio">Senhorio</label>
+                <input type="checkbox" id="trespassante"> <label for="trespassante">Trespassante</label>
+                <input type="checkbox" id="outro"> <label for="outro">Outro</label>
+            </div>
+        </div>
+        
+        <p>É celebrado o presente Contrato de Mediação Imobiliária que se rege pelas seguintes cláusulas:</p>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 1ª (Identificação do Imóvel)</div>
+            <p>O Segundo Contratante é proprietário e legítimo possidor da:</p>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="fracao"> <label for="fracao">Fração autónoma</label>
+                    <input type="checkbox" id="predio-rustico"> <label for="predio-rustico">Prédio Rústico</label>
+                    <input type="checkbox" id="predio-urbano"> <label for="predio-urbano">Prédio Urbano</label>
+                    <input type="checkbox" id="estabelecimento"> <label for="estabelecimento">Estabelecimento Comercial</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <strong>Destinado a</strong> <input type="text" style="width: 25% !important;"> <strong>sendo constituído por</strong> <input type="text" style="width: 10% !important;"> <strong>divisões assoalhadas, com área total de</strong> <input type="text" style="width: 10% !important;"> <strong>m²</strong>
+            </div>
+            <div class="form-row">
+                <strong>sito na</strong> <input type="text" style="width: 80% !important;"> <strong>Freguesia:</strong> <input type="text" style="width: 15% !important;">
+            </div>
+            <div class="form-row">
+                <strong>Concelho:</strong> <input type="text" style="width: 33% !important;"> <strong>Distrito:</strong> <input type="text" style="width: 32% !important;"> <input type="checkbox" id="urbana"> <label for="urbana">Urbana</label> <input type="checkbox" id="rustica"> <label for="rustica">Rústica</label>
+            </div>
+            <div class="form-row">
+                <strong>com o artigo nº</strong> <input type="text" style="width: 20% !important;"> <strong>da Freguesia de</strong> <input type="text" style="width: 40% !important;"> <strong>e descrito na Conservatória do</strong>
+            </div>
+            <div class="form-row">
+                <strong>Registo Predial de</strong> <input type="text" style="width: 30% !important;"> <strong>sob a ficha nº</strong> <input type="text" style="width: 20% !important;"> <strong>Com licença de</strong> <input type="checkbox" id="construcao"> <label for="construcao">construção</label> <input type="checkbox" id="utilizacao"> <label for="utilizacao">utilização</label>
+            </div>
+            <div class="form-row">
+                <strong>nº</strong> <input type="text" style="width: 20% !important;"> <strong>emitida pela Câmara Municipal de</strong> <input type="text" style="width: 40% !important;"> <strong>em</strong> <input type="text" style="width: 8% !important;"> / <input type="text" style="width: 8% !important;"> / <input type="text" style="width: 8% !important;">
+            </div>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 2ª (Identificação do Negócio)</div>
+            <p>1- A Mediadora obriga-se a diligenciar no sentido de conseguir interessado na:</p>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="compra"> <label for="compra">Compra</label>
+                    <input type="checkbox" id="trespasse"> <label for="trespasse">Trespasse</label>
+                    <input type="checkbox" id="arrendamento"> <label for="arrendamento">Arrendamento</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <strong>Pelo preço de:</strong> <input type="text" style="width: 30% !important;"> <strong>Euros (</strong><input type="text" style="width: 50% !important;"><strong>)</strong>
+            </div>
+        </div>
+        
+        <p>Desenvolvendo para o efeito ações de promoção e recolha de informações sobre os negócios pretendidos e características dos respetivos imóveis.</p>
+        <p>2- Qualquer alteração ao preço fixado no número anterior deverá ser comunicada de imediato e por escrito à Mediadora.</p>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 3ª (Ónus e Encargos)</div>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="livre"> <label for="livre">O imóvel encontra-se livre de quaisquer ónus ou encargos.</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="encargos"> <label for="encargos">O Segundo Contratante declara que sobre o imóvel descrito no número anterior recaem os seguintes ónus e encargos (hipotecas e penhoras)</label> <input type="text" style="width: 30% !important;"> <strong>pelo valor de</strong> <input type="text" style="width: 30% !important;"> <strong>Euros.</strong>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 4ª (Regime de Contratação)</div>
+            <p>1 - O Segundo Contratante contrata a Mediadora em regime de:</p>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="exclusividade"> <label for="exclusividade">Exclusividade</label>
+                    <input type="checkbox" id="nao-exclusividade"> <label for="nao-exclusividade">NÃO Exclusividade</label>
+                </div>
+            </div>
+            <p>2 - O regime de exclusividade previsto no presente contrato implica que só a Mediadora contratada tem o direito de promover o negócio objeto do contrato de mediação imobiliária durante o respetivo período de vigência.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 5ª (Remuneração)</div>
+            <p>1- A remuneração só será devida se a Mediadora conseguir interessado que concretize o negócio visado pelo presente contrato, nos termos e com as exceções previstas no artigo 19º da Lei n.º 15/2013, de 8 de fevereiro.</p>
+            <p>2- O Segundo Contratante obriga-se a pagar à Mediadora a título de remuneração:</p>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="percentual"> <label for="percentual">A quantia de <input type="text" style="width: 10% !important; display: inline-block;"> % calculada sobre o preço pelo qual o negócio é efetivamente concretizado, acrescida de IVA à taxa legal de 23%.</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="valor-fixo"> <label for="valor-fixo">A quantia de <input type="text" style="width: 30% !important; display: inline-block;"> Euros (<input type="text" style="width: 40% !important; display: inline-block;"> ) acrescida de IVA à taxa legal de 23%.</label>
+                </div>
+            </div>
+            <p>3- O pagamento da remuneração apenas será efetuado nas seguintes condições:</p>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="total-escritura"> <label for="total-escritura">O total da remuneração aquando da celebração da escritura ou conclusão do negócio visado.</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="parcial"> <label for="parcial">50% Após a celebração do contrato-promessa e o remanescente 50% na celebração da escritura ou conclusão do negócio.</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="total-promessa"> <label for="total-promessa">O total da remuneração aquando da celebração do contrato-promessa.</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 6ª (Obtenção de Documentos)</div>
+            <p>1-No âmbito do presente contrato, a Mediadora, na qualidade de mandatária sem representação, obriga-se a prestar os serviços conducentes à obtenção da documentação necessária à concretização do (s) negócio (s) visado (s) pela mediação.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 7ª (Garantias da Atividade de Mediação)</div>
+            <p>Para garantia da responsabilidade emergente da sua atividade profissional, a Mediadora celebrou um contrato de seguro obrigatório de responsabilidade civil no valor de 150 000€ Euros, apólice nº 1015868310, através da seguradora Liberty Seguros.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 8ª (Prazo De Duração do Contrato)</div>
+            <p>O presente contrato tem uma validade de <input type="text" style="width: 10% !important; display: inline-block;"> dias, contados a partir da data da sua celebração renovando-se automaticamente por iguais e sucessivos períodos, caso não seja denunciado por qualquer das partes contratantes através de carta registada com aviso de receção ou outro meio equivalente, com a antecedência mínima de 10 dias em relação ao seu termo.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 9ª (Dever de Colaboração)</div>
+            <p>1- O Segundo Contratante colaborará com a Mediadora na entrega de todos os elementos julgados necessários e úteis no prazo de 10 dias, a contar da data de assinatura do presente contrato.</p>
+            <p>2- O Segundo Contratante declara e garante que, no âmbito das disposições legais aplicáveis de natureza preventiva e repressiva de combate ao branqueamento de capitais e ao financiamento do terrorismo, e em relação a todos os atos e operações abrangidas pelo presente contrato, se obriga a cooperar na disponibilização de informação relevante à Mediadora, designadamente sobre a identidade das partes contratantes, do objeto do negócio imobiliário e dos meios de pagamento das transações imobiliárias.</p>
+            <p>3- O Segundo Contratante obriga-se ainda a cumprir todas as disposições legais e regulamentares decorrentes do Sistema de Certificação Energética que se encontram previstas no Decreto-Lei n.º 118/2013, de 20 de agosto, ou seja, a obrigação de providenciar, nos termos e prazos devidos, pela emissão do respetivo Certificado Energético em relação ao imóvel objeto do presente contrato (se aplicável).</p>
+            <p>4- O Segundo Contratante obriga-se, também, a dar cumprimento às regras referentes à Ficha Técnica da Habitação, nos termos do disposto no Decreto-Lei n.º 68/2004, de 25 de março, nos termos e prazos devidos (se aplicável).</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 10ª (Angariador Imobiliário)</div>
+            <p>Na preparação do presente contrato de mediação imobiliária colaborou o angariador imobiliário <input type="text" style="width: 50% !important; display: inline-block;"> portador do Cartão do Cidadão/ Bilhete de Identidade n.º <input type="text" style="width: 25% !important; display: inline-block;"> e/ou Contribuinte Fiscal n.º <input type="text" style="width: 25% !important; display: inline-block;">.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 11ª (Foro Competente)</div>
+            <p>Para dirimirem quaisquer litígios emergentes da execução do presente contrato, as partes acordam entre si, estabelecer como competente o Foro da Comarca do imóvel identificado na cláusula primeira, com a expressa renúncia a qualquer outro.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 12ª (Resolução Alternativa de litígios)</div>
+            <p>1- Nos termos do disposto no artigo 18.º da Lei n.º 144/2015, de 8 de setembro, na redação atual, em caso de litígio ou insatisfação com o serviço prestado poderá o Segundo Contratante recorrer ao Centro de Arbitragem de Conflitos de Consumo de Lisboa com o sítio eletrónico na Internet jurídico@centroarbitragemlisboa.pt, de que a Mediadora é aderente.</p>
+            <p>2- O disposto no número anterior não priva o consumidor do direito que lhe assiste de submeter o litígio a apreciação e decisão de um tribunal judicial.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 13.ª (Limites aos pagamentos em numerário)</div>
+            <p>Os intervenientes no presente contrato de mediação imobiliária abstêm-se de celebrar ou de algum modo participar em quaisquer negócios de que, no âmbito da sua atividade profissional, resulte a violação dos limites à utilização de numerário, previstos no artigo 63.º-E da Lei Geral Tributária, aprovada pelo Decreto-Lei n.º 398/98, de 17 de dezembro, aditado pela Lei n.º 92/2017, de 22 de agosto e de acordo com o artigo 10.º da Lei n.º 83/2017, de 18 de agosto.</p>
+        </div>
+        
+        <div class="clause">
+            <div class="clause-title">Cláusula 14.ª (Proteção de Dados Pessoais)</div>
+            <p>1 Em cumprimento do disposto no Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho de 27.04.2016 (RGPD) e demais legislação aplicável, relativo à proteção das pessoas singulares, no que diz respeito ao tratamento de dados pessoais e à livre circulação desses dados, o Segundo Contratante </p>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="autoriza"> <label for="autoriza">autoriza</label>
+                    <input type="checkbox" id="nao-autoriza"> <label for="nao-autoriza">não autoriza</label>
+                </div>
+            </div>
+            <p>que os seus dados pessoais recolhidos, transmitidos ou processados informaticamente pela Mediadora, sejam incorporados na sua base de dados. Estes dados destinam-se a processamentos administrativos, estatísticos e de apresentação/divulgação de produtos e serviços comercializados.</p>
+            <p>2 A Mediadora compromete-se, designadamente, a não copiar, reproduzir, adaptar, modificar, alterar, apagar, destruir, divulgar ou por qualquer outra forma colocar à disposição de terceiros, os dados pessoais do Segundo Contratante a que tenha tido acesso no âmbito do presente contrato, sem que para tal tenha sido expressamente autorizada, comprometendo-se a utilizá-los exclusivamente para as finalidades referidas.</p>
+            <p>3 Mais se declara que, nos termos e para os efeitos previstos nos artigos 12º e 23º do RGPD, a Mediadora informou o Segundo Contratante e este tomou conhecimento dos direitos que lhe assistem relativamente aos seus dados pessoais.</p>
+        </div>
+        
+        <p>Depois de lido e ratificado, as partes comprometem-se a cumprir este contrato segundo os ditames da boa-fé, e vão assinar.</p>
+        <p>Feito em duplicado, destinando-se um exemplar a cada uma das partes intervenientes.</p>
+        
+        <div class="form-row">
+            <input type="text" style="width: 20% !important; display: inline-block;">, <input type="text" style="width: 5% !important; display: inline-block;"> de <input type="text" style="width: 20% !important; display: inline-block;"> de <input type="text" style="width: 10% !important; display: inline-block;">
+        </div>
+        
+        <div class="signatures">
+            <div class="signature-line">A Mediadora Imobiliária</div>
+            <div class="signature-line">O Segundo Contratante</div>
+        </div>
+        
+        <div class="page-number">4/4</div>
+    </div>
+</body>
+</html>
