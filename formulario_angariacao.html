@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Mediação - Angariação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contrato de Mediação - Angariação</h1>
+    <form action="https://SEU_N8N_WEBHOOK_URL_HERE" method="POST">
+        <div class="form-group">
+            <label>Nome do Proprietário:</label>
+            <input type="text" name="nome_proprietario" required>
+        </div>
+        <div class="form-group">
+            <label>Morada:</label>
+            <input type="text" name="morada" required>
+        </div>
+        <div class="form-group">
+            <label>Código Postal:</label>
+            <input type="text" name="codigo_postal">
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email">
+        </div>
+        <div class="form-group">
+            <label>Telefone:</label>
+            <input type="tel" name="telefone">
+        </div>
+        <div class="form-group">
+            <label>NIF:</label>
+            <input type="text" name="nif">
+        </div>
+        <div class="form-group">
+            <label>Exclusividade:</label>
+            <select name="exclusividade">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Valor do Imóvel:</label>
+            <input type="text" name="valor_imovel">
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
